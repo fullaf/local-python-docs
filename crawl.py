@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from collections import deque
 from urlparse import urlparse,urljoin
 
-location = '/var/www/pydocs/'
+location = './pydocs/'
 link = deque()
 link.append('http://docs.python.org/tutorial/datastructures.html')
 visited = []
@@ -32,7 +32,7 @@ def link_collect(url):
 	html_doc = response.read()
 	get_file(url,html_doc)
 	if url.find('.html') + 1:
-		soup = BeautifulSoup(html_doc)
+		soup = BeautifulSoup(html_doc, 'lxml')
 	else:
 		return
 	for hRef in soup.find_all('a'):
