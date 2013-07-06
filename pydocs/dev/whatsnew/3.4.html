@@ -1,0 +1,388 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>What’s New In Python 3.4 &mdash; Python v3.4.0a0 documentation</title>
+    <link rel="stylesheet" href="../_static/pydoctheme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '3.4.0a0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/sidebar.js"></script>
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within Python v3.4.0a0 documentation"
+          href="../_static/opensearch.xml"/>
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="top" title="Python v3.4.0a0 documentation" href="../index.html" />
+    <link rel="up" title="What’s New in Python" href="index.html" />
+    <link rel="next" title="What’s New In Python 3.3" href="3.3.html" />
+    <link rel="prev" title="What’s New in Python" href="index.html" />
+    <link rel="shortcut icon" type="image/png" href="../_static/py.png" />
+    <script type="text/javascript" src="../_static/copybutton.js"></script>
+    <script type="text/javascript" src="../_static/version_switch.js"></script>
+    
+ 
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="3.3.html" title="What’s New In Python 3.3"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="What’s New in Python"
+             accesskey="P">previous</a> |</li>
+        <li><img src="../_static/py.png" alt=""
+                 style="vertical-align: middle; margin-top: -1px"/></li>
+        <li><a href="http://www.python.org/">Python</a> &raquo;</li>
+        <li>
+          <span class="version_switcher_placeholder">3.4.0a0</span>
+          <a href="../index.html">Documentation</a> &raquo;
+        </li>
+
+          <li><a href="index.html" accesskey="U">What&#8217;s New in Python</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="what-s-new-in-python-3-4">
+<h1>What&#8217;s New In Python 3.4<a class="headerlink" href="#what-s-new-in-python-3-4" title="Permalink to this headline">¶</a></h1>
+<p>This article explains the new features in Python 3.4, compared to 3.3.</p>
+<p>For full details, see the
+<a class="reference external" href="http://docs.python.org/3.4/whatsnew/changelog.html">changelog</a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Prerelease users should be aware that this document is currently in
+draft form. It will be updated substantially as Python 3.4 moves towards
+release, so it&#8217;s worth checking back even after reading earlier versions.</p>
+</div>
+<div class="admonition-see-also admonition seealso">
+<p class="first last admonition-title">See also</p>
+</div>
+<div class="section" id="summary-release-highlights">
+<h2>Summary &#8211; Release highlights<a class="headerlink" href="#summary-release-highlights" title="Permalink to this headline">¶</a></h2>
+<p>New syntax features:</p>
+<ul class="simple">
+<li>None yet.</li>
+</ul>
+<p>New library modules:</p>
+<ul class="simple">
+<li><a class="reference internal" href="../library/enum.html#module-enum" title="enum: Implementation of an enumeration class."><tt class="xref py py-mod docutils literal"><span class="pre">enum</span></tt></a>: Implementation of the <span class="target" id="index-0"></span><a class="pep reference external" href="http://www.python.org/dev/peps/pep-0435"><strong>PEP 435</strong></a>.</li>
+</ul>
+<p>New built-in features:</p>
+<ul class="simple">
+<li>None yet.</li>
+</ul>
+<p>Implementation improvements:</p>
+<ul class="simple">
+<li>A more efficient <a class="reference internal" href="../library/marshal.html#module-marshal" title="marshal: Convert Python objects to streams of bytes and back (with different constraints)."><tt class="xref py py-mod docutils literal"><span class="pre">marshal</span></tt></a> format &lt;<a class="reference external" href="http://bugs.python.org/issue16475">http://bugs.python.org/issue16475</a>&gt;.</li>
+</ul>
+<p>Significantly Improved Library Modules:</p>
+<ul class="simple">
+<li>SHA-3 (Keccak) support for <a class="reference internal" href="../library/hashlib.html#module-hashlib" title="hashlib: Secure hash and message digest algorithms."><tt class="xref py py-mod docutils literal"><span class="pre">hashlib</span></tt></a>.</li>
+<li>TLSv1.1 and TLSv1.2 support for <a class="reference internal" href="../library/ssl.html#module-ssl" title="ssl: TLS/SSL wrapper for socket objects"><tt class="xref py py-mod docutils literal"><span class="pre">ssl</span></tt></a>.</li>
+</ul>
+<p>Security improvements:</p>
+<ul class="simple">
+<li>None yet.</li>
+</ul>
+<p>Please read on for a comprehensive list of user-facing changes.</p>
+<span class="target" id="pep-4xx"></span></div>
+<div class="section" id="other-language-changes">
+<h2>Other Language Changes<a class="headerlink" href="#other-language-changes" title="Permalink to this headline">¶</a></h2>
+<p>Some smaller changes made to the core Python language are:</p>
+<ul class="simple">
+<li>Unicode database updated to UCD version 6.2.</li>
+<li><a class="reference internal" href="../library/functions.html#min" title="min"><tt class="xref py py-func docutils literal"><span class="pre">min()</span></tt></a> and <a class="reference internal" href="../library/functions.html#max" title="max"><tt class="xref py py-func docutils literal"><span class="pre">max()</span></tt></a> now accept a <em>default</em> argument that can be used
+to specify the value they return if the iterable they are evaluating has no
+elements.  Contributed by Julian Berman in <a class="reference external" href="http://bugs.python.org/issue18111">issue 18111</a>.</li>
+</ul>
+</div>
+<div class="section" id="new-modules">
+<h2>New Modules<a class="headerlink" href="#new-modules" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>None yet.</li>
+</ul>
+</div>
+<div class="section" id="improved-modules">
+<h2>Improved Modules<a class="headerlink" href="#improved-modules" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="dis">
+<h3>dis<a class="headerlink" href="#dis" title="Permalink to this headline">¶</a></h3>
+<p>The <a class="reference internal" href="../library/dis.html#module-dis" title="dis: Disassembler for Python bytecode."><tt class="xref py py-mod docutils literal"><span class="pre">dis</span></tt></a> module is now built around an <tt class="xref py py-class docutils literal"><span class="pre">Instruction</span></tt> class that
+provides details of individual bytecode operations and a
+<tt class="xref py py-func docutils literal"><span class="pre">get_instructions()</span></tt> iterator that emits the Instruction stream for a
+given piece of Python code. The various display tools in the <a class="reference internal" href="../library/dis.html#module-dis" title="dis: Disassembler for Python bytecode."><tt class="xref py py-mod docutils literal"><span class="pre">dis</span></tt></a>
+module have been updated to be based on these new components.</p>
+<p>The new <a class="reference internal" href="../library/dis.html#dis.Bytecode" title="dis.Bytecode"><tt class="xref py py-class docutils literal"><span class="pre">dis.Bytecode</span></tt></a> class provides an object-oriented API for
+inspecting bytecode, both in human-readable form and for iterating over
+instructions.</p>
+<p>(Contributed by Nick Coghlan, Ryan Kelly and Thomas Kluyver in <a class="reference external" href="http://bugs.python.org/issue11816">issue 11816</a>)</p>
+</div>
+<div class="section" id="doctest">
+<h3>doctest<a class="headerlink" href="#doctest" title="Permalink to this headline">¶</a></h3>
+<p>Added <a class="reference internal" href="../library/doctest.html#doctest.FAIL_FAST" title="doctest.FAIL_FAST"><tt class="xref py py-data docutils literal"><span class="pre">FAIL_FAST</span></tt></a> flag to halt test running as soon as the first
+failure is detected.  (Contributed by R. David Murray and Daniel Urban in
+<a class="reference external" href="http://bugs.python.org/issue16522">issue 16522</a>.)</p>
+<p>Updated the doctest command line interface to use <a class="reference internal" href="../library/argparse.html#module-argparse" title="argparse: Command-line option and argument parsing library."><tt class="xref py py-mod docutils literal"><span class="pre">argparse</span></tt></a>, and added
+<tt class="docutils literal"><span class="pre">-o</span></tt> and <tt class="docutils literal"><span class="pre">-f</span></tt> options to the interface.  <tt class="docutils literal"><span class="pre">-o</span></tt> allows doctest options to
+be specified on the command line, and <tt class="docutils literal"><span class="pre">-f</span></tt> is a shorthand for <tt class="docutils literal"><span class="pre">-o</span>
+<span class="pre">FAIL_FAST</span></tt> (to parallel the similar option supported by the <a class="reference internal" href="../library/unittest.html#module-unittest" title="unittest: Unit testing framework for Python."><tt class="xref py py-mod docutils literal"><span class="pre">unittest</span></tt></a>
+CLI).  (Contributed by R. David Murray in <a class="reference external" href="http://bugs.python.org/issue11390">issue 11390</a>.)</p>
+</div>
+<div class="section" id="functools">
+<h3>functools<a class="headerlink" href="#functools" title="Permalink to this headline">¶</a></h3>
+<p>New <a class="reference internal" href="../library/functools.html#functools.singledispatch" title="functools.singledispatch"><tt class="xref py py-func docutils literal"><span class="pre">functools.singledispatch()</span></tt></a> decorator: see the <span class="target" id="index-1"></span><a class="pep reference external" href="http://www.python.org/dev/peps/pep-0443"><strong>PEP 443</strong></a>.</p>
+</div>
+<div class="section" id="smtplib">
+<h3>smtplib<a class="headerlink" href="#smtplib" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="../library/smtplib.html#smtplib.SMTPException" title="smtplib.SMTPException"><tt class="xref py py-exc docutils literal"><span class="pre">SMTPException</span></tt></a> is now a subclass of <a class="reference internal" href="../library/exceptions.html#OSError" title="OSError"><tt class="xref py py-exc docutils literal"><span class="pre">OSError</span></tt></a>, which allows
+both socket level errors and SMTP protocol level errors to be caught in one
+try/except statement by code that only cares whether or not an error occurred.
+(<a class="reference external" href="http://bugs.python.org/issue2118">issue 2118</a>).</p>
+</div>
+<div class="section" id="ssl">
+<h3>ssl<a class="headerlink" href="#ssl" title="Permalink to this headline">¶</a></h3>
+<p>TLSv1.1 and TLSv1.2 support (Contributed by Michele Orrù and Antoine Pitrou
+in <a class="reference external" href="http://bugs.python.org/issue16692">issue 16692</a>)</p>
+<p>New diagnostic functions <a class="reference internal" href="../library/ssl.html#ssl.get_default_verify_paths" title="ssl.get_default_verify_paths"><tt class="xref py py-func docutils literal"><span class="pre">get_default_verify_paths()</span></tt></a>,
+<a class="reference internal" href="../library/ssl.html#ssl.SSLContext.cert_store_stats" title="ssl.SSLContext.cert_store_stats"><tt class="xref py py-meth docutils literal"><span class="pre">cert_store_stats()</span></tt></a> and
+<a class="reference internal" href="../library/ssl.html#ssl.SSLContext.get_ca_certs" title="ssl.SSLContext.get_ca_certs"><tt class="xref py py-meth docutils literal"><span class="pre">get_ca_certs()</span></tt></a></p>
+<p>Add <a class="reference internal" href="../library/ssl.html#ssl.enum_cert_store" title="ssl.enum_cert_store"><tt class="xref py py-func docutils literal"><span class="pre">ssl.enum_cert_store()</span></tt></a> to retrieve certificates and CRL from Windows&#8217;
+cert store.</p>
+<p>(Contributed by Christian Heimes in <a class="reference external" href="http://bugs.python.org/issue18143">issue 18143</a>, <a class="reference external" href="http://bugs.python.org/issue18147">issue 18147</a> and
+<a class="reference external" href="http://bugs.python.org/issue17134">issue 17134</a>)</p>
+</div>
+<div class="section" id="wave">
+<h3>wave<a class="headerlink" href="#wave" title="Permalink to this headline">¶</a></h3>
+<p>The <tt class="xref py py-meth docutils literal"><span class="pre">getparams()</span></tt> method now returns a namedtuple rather than a
+plain tuple.  (Contributed by Claudiu Popa in <a class="reference external" href="http://bugs.python.org/issue17487">issue 17487</a>.)</p>
+<p>stat
+&#8212;</p>
+<p>The stat module is now backed by a C implementation in <tt class="xref py py-mod docutils literal"><span class="pre">_stat</span></tt>. A C
+implementation is required as most of the values aren&#8217;t standardized and
+platform-dependent.  (Contributed by Christian Heimes in <a class="reference external" href="http://bugs.python.org/issue11016">issue 11016</a>.)</p>
+</div>
+</div>
+<div class="section" id="optimizations">
+<h2>Optimizations<a class="headerlink" href="#optimizations" title="Permalink to this headline">¶</a></h2>
+<p>Major performance enhancements have been added:</p>
+<ul class="simple">
+<li>The UTF-32 decoder is now 3x to 4x faster.</li>
+</ul>
+</div>
+<div class="section" id="build-and-c-api-changes">
+<h2>Build and C API Changes<a class="headerlink" href="#build-and-c-api-changes" title="Permalink to this headline">¶</a></h2>
+<p>Changes to Python&#8217;s build process and to the C API include:</p>
+<ul class="simple">
+<li>None yet.</li>
+</ul>
+</div>
+<div class="section" id="deprecated">
+<h2>Deprecated<a class="headerlink" href="#deprecated" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="unsupported-operating-systems">
+<h3>Unsupported Operating Systems<a class="headerlink" href="#unsupported-operating-systems" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None yet.</li>
+</ul>
+</div>
+<div class="section" id="deprecated-python-modules-functions-and-methods">
+<h3>Deprecated Python modules, functions and methods<a class="headerlink" href="#deprecated-python-modules-functions-and-methods" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><tt class="xref py py-meth docutils literal"><span class="pre">difflib.SequenceMatcher.isbjunk()</span></tt> and
+<tt class="xref py py-meth docutils literal"><span class="pre">difflib.SequenceMatcher.isbpopular()</span></tt> were removed: use <tt class="docutils literal"><span class="pre">x</span> <span class="pre">in</span> <span class="pre">sm.bjunk</span></tt> and
+<tt class="docutils literal"><span class="pre">x</span> <span class="pre">in</span> <span class="pre">sm.bpopular</span></tt>, where <em>sm</em> is a <a class="reference internal" href="../library/difflib.html#difflib.SequenceMatcher" title="difflib.SequenceMatcher"><tt class="xref py py-class docutils literal"><span class="pre">SequenceMatcher</span></tt></a> object.</li>
+<li><a class="reference internal" href="../library/importlib.html#importlib.util.module_for_loader" title="importlib.util.module_for_loader"><tt class="xref py py-func docutils literal"><span class="pre">importlib.util.module_for_loader()</span></tt></a> is pending deprecation. Using
+<a class="reference internal" href="../library/importlib.html#importlib.util.module_to_load" title="importlib.util.module_to_load"><tt class="xref py py-func docutils literal"><span class="pre">importlib.util.module_to_load()</span></tt></a> and
+<a class="reference internal" href="../library/importlib.html#importlib.abc.Loader.init_module_attrs" title="importlib.abc.Loader.init_module_attrs"><tt class="xref py py-meth docutils literal"><span class="pre">importlib.abc.Loader.init_module_attrs()</span></tt></a> allows subclasses of a loader
+to more easily customize module loading.</li>
+<li>The <a class="reference internal" href="../library/imp.html#module-imp" title="imp: Access the implementation of the import statement."><tt class="xref py py-mod docutils literal"><span class="pre">imp</span></tt></a> module is pending deprecation. To keep compatibility with
+Python 2/3 code bases, the module&#8217;s removal is currently not scheduled.</li>
+</ul>
+</div>
+<div class="section" id="deprecated-functions-and-types-of-the-c-api">
+<h3>Deprecated functions and types of the C API<a class="headerlink" href="#deprecated-functions-and-types-of-the-c-api" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None yet.</li>
+</ul>
+</div>
+<div class="section" id="deprecated-features">
+<h3>Deprecated features<a class="headerlink" href="#deprecated-features" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None yet.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="porting-to-python-3-4">
+<h2>Porting to Python 3.4<a class="headerlink" href="#porting-to-python-3-4" title="Permalink to this headline">¶</a></h2>
+<p>This section lists previously described changes and other bugfixes
+that may require changes to your code.</p>
+<ul class="simple">
+<li>The ABCs defined in <a class="reference internal" href="../library/importlib.html#module-importlib.abc" title="importlib.abc: Abstract base classes related to import"><tt class="xref py py-mod docutils literal"><span class="pre">importlib.abc</span></tt></a> now either raise the appropriate
+exception or return a default value instead of raising
+<a class="reference internal" href="../library/exceptions.html#NotImplementedError" title="NotImplementedError"><tt class="xref py py-exc docutils literal"><span class="pre">NotImplementedError</span></tt></a> blindly. This will only affect code calling
+<a class="reference internal" href="../library/functions.html#super" title="super"><tt class="xref py py-func docutils literal"><span class="pre">super()</span></tt></a> and falling through all the way to the ABCs. For compatibility,
+catch both <a class="reference internal" href="../library/exceptions.html#NotImplementedError" title="NotImplementedError"><tt class="xref py py-exc docutils literal"><span class="pre">NotImplementedError</span></tt></a> or the appropriate exception as needed.</li>
+<li>The module type now initializes the <tt class="xref py py-attr docutils literal"><span class="pre">__package__</span></tt> and <tt class="xref py py-attr docutils literal"><span class="pre">__loader__</span></tt>
+attributes to <tt class="xref docutils literal"><span class="pre">None</span></tt> by default. To determine if these attributes were set
+in a backwards-compatible fashion, use e.g.
+<tt class="docutils literal"><span class="pre">getattr(module,</span> <span class="pre">'__loader__',</span> <span class="pre">None)</span> <span class="pre">is</span> <span class="pre">not</span> <span class="pre">None</span></tt>.</li>
+<li><a class="reference internal" href="../library/importlib.html#importlib.util.module_for_loader" title="importlib.util.module_for_loader"><tt class="xref py py-meth docutils literal"><span class="pre">importlib.util.module_for_loader()</span></tt></a> now sets <tt class="docutils literal"><span class="pre">__loader__</span></tt> and
+<tt class="docutils literal"><span class="pre">__package__</span></tt> unconditionally to properly support reloading. If this is not
+desired then you will need to set these attributes manually. You can use
+<a class="reference internal" href="../library/importlib.html#importlib.util.module_to_load" title="importlib.util.module_to_load"><tt class="xref py py-func docutils literal"><span class="pre">importlib.util.module_to_load()</span></tt></a> for module management.</li>
+<li>Import now resets relevant attributes (e.g. <tt class="docutils literal"><span class="pre">__name__</span></tt>, <tt class="docutils literal"><span class="pre">__loader__</span></tt>,
+<tt class="docutils literal"><span class="pre">__package__</span></tt>, <tt class="docutils literal"><span class="pre">__file__</span></tt>, <tt class="docutils literal"><span class="pre">__cached__</span></tt>) unconditionally when reloading.</li>
+<li>Frozen packages no longer set <tt class="docutils literal"><span class="pre">__path__</span></tt> to a list containg the package name
+but an empty list instead. Determing if a module is a package should be done
+using <tt class="docutils literal"><span class="pre">hasattr(module,</span> <span class="pre">'__path__')</span></tt>.</li>
+<li><a class="reference internal" href="../c-api/exceptions.html#PyErr_SetImportError" title="PyErr_SetImportError"><tt class="xref c c-func docutils literal"><span class="pre">PyErr_SetImportError()</span></tt></a> now sets <a class="reference internal" href="../library/exceptions.html#TypeError" title="TypeError"><tt class="xref py py-exc docutils literal"><span class="pre">TypeError</span></tt></a> when its <strong>msg</strong>
+argument is not set. Previously only <tt class="docutils literal"><span class="pre">NULL</span></tt> was returned with no exception
+set.</li>
+<li><a class="reference internal" href="../library/py_compile.html#py_compile.compile" title="py_compile.compile"><tt class="xref py py-func docutils literal"><span class="pre">py_compile.compile()</span></tt></a> now raises <a class="reference internal" href="../library/exceptions.html#FileExistsError" title="FileExistsError"><tt class="xref py py-exc docutils literal"><span class="pre">FileExistsError</span></tt></a> if the file path
+it would write to is a symlink or a non-regular file. This is to act as a
+warning that import will overwrite those files with a regular file regardless
+of what type of file path they were originally.</li>
+<li><a class="reference internal" href="../library/importlib.html#importlib.abc.SourceLoader.get_source" title="importlib.abc.SourceLoader.get_source"><tt class="xref py py-meth docutils literal"><span class="pre">importlib.abc.SourceLoader.get_source()</span></tt></a> no longer raises
+<a class="reference internal" href="../library/exceptions.html#ImportError" title="ImportError"><tt class="xref py py-exc docutils literal"><span class="pre">ImportError</span></tt></a> when the source code being loaded triggers a
+<a class="reference internal" href="../library/exceptions.html#SyntaxError" title="SyntaxError"><tt class="xref py py-exc docutils literal"><span class="pre">SyntaxError</span></tt></a> or <a class="reference internal" href="../library/exceptions.html#UnicodeDecodeError" title="UnicodeDecodeError"><tt class="xref py py-exc docutils literal"><span class="pre">UnicodeDecodeError</span></tt></a>. As <a class="reference internal" href="../library/exceptions.html#ImportError" title="ImportError"><tt class="xref py py-exc docutils literal"><span class="pre">ImportError</span></tt></a> is
+meant to be raised only when source code cannot be found but it should, it was
+felt to be over-reaching/overloading of that meaning when the source code is
+found but improperly structured. If you were catching ImportError before and
+wish to continue to ignore syntax or decoding issues, catch all three
+exceptions now.</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">What&#8217;s New In Python 3.4</a><ul>
+<li><a class="reference internal" href="#summary-release-highlights">Summary &#8211; Release highlights</a></li>
+<li><a class="reference internal" href="#other-language-changes">Other Language Changes</a></li>
+<li><a class="reference internal" href="#new-modules">New Modules</a></li>
+<li><a class="reference internal" href="#improved-modules">Improved Modules</a><ul>
+<li><a class="reference internal" href="#dis">dis</a></li>
+<li><a class="reference internal" href="#doctest">doctest</a></li>
+<li><a class="reference internal" href="#functools">functools</a></li>
+<li><a class="reference internal" href="#smtplib">smtplib</a></li>
+<li><a class="reference internal" href="#ssl">ssl</a></li>
+<li><a class="reference internal" href="#wave">wave</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#optimizations">Optimizations</a></li>
+<li><a class="reference internal" href="#build-and-c-api-changes">Build and C API Changes</a></li>
+<li><a class="reference internal" href="#deprecated">Deprecated</a><ul>
+<li><a class="reference internal" href="#unsupported-operating-systems">Unsupported Operating Systems</a></li>
+<li><a class="reference internal" href="#deprecated-python-modules-functions-and-methods">Deprecated Python modules, functions and methods</a></li>
+<li><a class="reference internal" href="#deprecated-functions-and-types-of-the-c-api">Deprecated functions and types of the C API</a></li>
+<li><a class="reference internal" href="#deprecated-features">Deprecated features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#porting-to-python-3-4">Porting to Python 3.4</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">What&#8217;s New in Python</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="3.3.html"
+                        title="next chapter">What&#8217;s New In Python 3.3</a></p>
+<h3>This Page</h3>
+<ul class="this-page-menu">
+  <li><a href="../bugs.html">Report a Bug</a></li>
+  <li><a href="../_sources/whatsnew/3.4.txt"
+         rel="nofollow">Show Source</a></li>
+</ul>
+
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="3.3.html" title="What’s New In Python 3.3"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="What’s New in Python"
+             >previous</a> |</li>
+        <li><img src="../_static/py.png" alt=""
+                 style="vertical-align: middle; margin-top: -1px"/></li>
+        <li><a href="http://www.python.org/">Python</a> &raquo;</li>
+        <li>
+          <span class="version_switcher_placeholder">3.4.0a0</span>
+          <a href="../index.html">Documentation</a> &raquo;
+        </li>
+
+          <li><a href="index.html" >What&#8217;s New in Python</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+    &copy; <a href="../copyright.html">Copyright</a> 1990-2013, Python Software Foundation.
+    <br />
+    The Python Software Foundation is a non-profit corporation.
+    <a href="http://www.python.org/psf/donations/">Please donate.</a>
+    <br />
+    Last updated on Jul 06, 2013.
+    <a href="../bugs.html">Found a bug</a>?
+    <br />
+    Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.7.
+    </div>
+
+  </body>
+</html>
